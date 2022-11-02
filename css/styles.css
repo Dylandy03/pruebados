@@ -18,6 +18,18 @@ padding: 0;
 .color-gris{
     background: grey;
 }
+/* Color rojo */
+.color-rojo{
+    background: red;
+}
+/* Color verde */
+.color-verde{
+    background: green;
+}
+/* Color azul*/
+.color-azul{
+    background: blue;
+}
 /* Contenedor */
 .contenedor{
     width: 90%;
