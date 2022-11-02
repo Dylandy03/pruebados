@@ -6,7 +6,7 @@ padding: 0;
 }
 /* Borde */
 .borde{
-    border: 2px solid black;
+    border: 1px solid #ccc;
 }
 /* Texto */
 .titulo{
@@ -21,6 +21,9 @@ padding: 0;
 /* Color rojo */
 .color-rojo{
     background: red;
+    /* background: rgb(255,0,0); */
+    background: #f00;
+    background: #ff0000;
 }
 /* Color verde */
 .color-verde{
@@ -29,6 +32,34 @@ padding: 0;
 /* Color azul*/
 .color-azul{
     background: blue;
+}
+/* Color gris oscuro */
+.color-gris-oscuro{
+    background: #777;
+    /* background: rgb(777,0,0); */
+    background: #777;
+    background: #777;
+}
+/* Color gris claro */
+.color-gris-claro{
+    background: #aaa;
+    /* background: rgb(255,0,0); */
+    background: #aaa;
+    background: #aaa;
+}
+/* Color blanco */
+.color-blanco{
+    background: white;
+    /* background: rgb(255,0,0); */
+    background: #fff;
+    background: #fff;
+}
+/* Color negro */
+.color-negro{
+    background: black;
+    /* background: rgb(255,0,0); */
+    background: #000;
+    background: #000;
 }
 /* Contenedor */
 .contenedor{
@@ -46,12 +77,13 @@ nav{
     width: 20%;
     height: 100%;
     float: left;
+    background: white;
 }
 .menu{
     width: 65%;
     height: 100%;
     float: left;
-    background: orange;
+    background: #ef8814;
 }
 .ingreso{
     width: 15%;
